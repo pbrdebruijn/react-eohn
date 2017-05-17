@@ -1,5 +1,6 @@
 # Open Hack Night Eonics
-Slides are available on: ``
+Slides are available on:
+https://slides.com/pbrdebruijn/react
 
 # ReactJS - An introduction
 
@@ -20,17 +21,18 @@ npm install
 2. Find the `./src/component/` directory and look for the `Button.js` file
 This is an example of a `Stateless` component.
 
-4. Use this Butten component in the main `./App.js` to create 2 different buttons. The text attribute is available in the `props` of the component.
+3. Compare this to the `Time` or `Stopwatch` component.
+These are components with their own `state`.
+The React lifecycle is also shown in these components.
 
-```javascript
-<Button text="start"/>
-<Button text="stop"/>
-```
-
-5. Start serving the app with
+4. Start serving the app with
 ```bash
 npm start
 ```
+Available in your browser:
+http://localhost:3000
+
+5. Use this Butten component as an example to create a `Logo` component to replace the `<img>` in the `App.js`
 
 ## TL;TR;
 
